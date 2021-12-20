@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="Calculator">
+
+
+    <h1 class="heading">Calculator</h1>
+
+     <!-- <form class="cal"> -->
+    <table >
+
+      <tr>
+        <td colspan="7"><input type="text" name="display" value="" placeholder="0" id="inputId"></td>
+      </tr>
+      <tr>
+        <td><input type="button" name="display" value="Inv"  class="cal-btn" id="inv"></td>
+        <td><input type="button" name="display" value="Rad"  class="cal-btn" id="rad"></td>
+        <td><input type="button" name="display" value="x!"  class="cal-btn " id="fact"></td>
+        <td><input type="button" name="display" value="("  class="cal-btn key"></td>
+        <td><input type="button" name="display" value=")"  class="cal-btn key" id="close-bracket"></td>
+        <td><input type="button" name="display" value="C" id="clear" class="cal-btn "></td>
+        <td><input type="button" name="display" value="Back" id="backspace" class="cal-btn "></td>
+
+      </tr>
+      <tr>
+        <td><input type="button" name="display" value="ln"  class="cal-btn " id="ln"></td>
+        <td><input type="button" name="display" value="sin"  class="cal-btn " id="sin"></td>
+        <td><input type="button" name="display" value="%"  class="cal-btn " id="percent"></td>
+        <td><input type="button" name="display" value="7"  class="btn btn-secondary cal-btn key"></td>
+        <td><input type="button" name="display" value="8"  class="btn btn-secondary cal-btn key"></td>
+        <td><input type="button" name="display" value="9"  class="btn btn-secondary cal-btn key"></td>
+        <td><input type="button" name="display" value="/" class="cal-btn key"></td>
+
+      </tr>
+      <tr>
+        <td><input type="button" name="display" value="log"  class="cal-btn " id="log"></td>
+        <td><input type="button" name="display" value="cos"  class="cal-btn " id="cos"></td>
+        <td><input type="button" name="display" value="sqrt"  class="cal-btn " id="sqrt"></td>
+        <td><input type="button" name="display" value="4" class="btn btn-secondary cal-btn key"></td>
+        <td><input type="button" name="display" value="5" class="btn btn-secondary cal-btn key"></td>
+        <td><input type="button" name="display" value="6" class="btn btn-secondary cal-btn key"></td>
+        <td><input type="button" name="display" value="*" class="cal-btn key"></td>
+
+      </tr>
+      <tr>
+        <td><input type="button" name="display" value="^"  class="cal-btn " id="power"></td>
+        <td><input type="button" name="display" value="tan"  class="cal-btn " id="tan"></td>
+        <td><input type="button" name="display" value="1/x"  class="cal-btn" id="reverse"></td>
+        <td><input type="button" name="display" value="1" class="btn btn-secondary cal-btn key"></td>
+        <td><input type="button" name="display" value="2" class="btn btn-secondary cal-btn key"></td>
+        <td><input type="button" name="display" value="3" class="btn btn-secondary cal-btn key"></td>
+        <td><input type="button" name="display" value="-" class="cal-btn key"></td>
+
+      </tr>
+
+      <tr>
+        <td><input type="button" name="display" value="Mod"  class="cal-btn" id="modulus"></td>
+        <td><input type="button" name="display" value="π"  class="cal-btn" id="pi"></td>
+        <td><input type="button" name="display" value="e"  class="cal-btn" id="exp"></td>
+        <td><input type="button" name="display" value="0" class="btn btn-secondary cal-btn key"></td>
+        <td><input type="button" name="display" value="." class="btn btn-secondary cal-btn key"></td>
+        <td><input type="button" name="display" value="=" class="btn btn-primary cal-btn equal"></td>
+        <td><input type="button" name="display" value="+" class="cal-btn key"></td>
+
+      </tr>
+    </table>
+    </div>
+     <!-- </form> -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>

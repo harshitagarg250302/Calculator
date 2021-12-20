@@ -1,0 +1,33 @@
+body{
+  text-align: center;
+  background-color: #283149 !important;
+}
+.Calculator{
+  justify-content: center;
+  margin:2% 33%;
+  box-shadow: 0 0 10px rgb(0 0 0 / 30%);
+  padding: 2%;
+}
+
+.heading{
+  /* text-align: center; */
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+}
+.cal{
+  margin: 5% auto;
+}
+#inputId{
+   width: 418px;
+  height: 40px;
+  text-align: right;
+  margin: 2%;
+}
+.cal-btn{
+  height: 60px;
+  width: 60px;
+  border-radius: 10%;
+  font-size: 1.25rem;
+}
